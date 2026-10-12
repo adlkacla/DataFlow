@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37710.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlow", "DataFlow.csproj", "{7573FF5E-018C-4120-83CB-DBF19A8CE70E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlow.Core", "DataFlow.Core.csproj", "{7573FF5E-018C-4120-83CB-DBF19A8CE70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlow.Demo", "..\DataFlow.Demo\DataFlow.Demo.csproj", "{B5CCA6C8-D4FA-476A-8CD7-2894161D2A3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7573FF5E-018C-4120-83CB-DBF19A8CE70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7573FF5E-018C-4120-83CB-DBF19A8CE70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7573FF5E-018C-4120-83CB-DBF19A8CE70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CCA6C8-D4FA-476A-8CD7-2894161D2A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CCA6C8-D4FA-476A-8CD7-2894161D2A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CCA6C8-D4FA-476A-8CD7-2894161D2A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CCA6C8-D4FA-476A-8CD7-2894161D2A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
